@@ -1,0 +1,33 @@
+.nav {
+    display: flex;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    z-index: 1;
+    padding: 20px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+}
+.nav__icons {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+.nav__logo {
+    left: 40px;
+    width: 80px;
+    object-fit: contain;
+    text-decoration: none;
+}
+
+.nav__avatar {
+    width: 60px;
+}
+
+.nav__shopingCart {
+}
+
+.nav__login {
+    width: 60px;
+}
