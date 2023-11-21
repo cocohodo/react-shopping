@@ -24,7 +24,7 @@
   }
   
   .product:hover {
-    transform: translateY(-3px);
+    transform: scale(1.1);
     transition: 500ms;
     cursor: pointer;
   }
@@ -74,4 +74,23 @@
     background-color: gainsboro;
     transition: 500ms;
     cursor: pointer;
+  }
+  .product__footer {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+  }
+  .product__cart-btn {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    padding: 10px 10px;
+    color: black;
+  }
+  .product__cart-btn:hover {
+    background-color: black;
+    color: white;
   }

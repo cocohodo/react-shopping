@@ -1,4 +1,6 @@
 .nav {
+    position: fixed;
+    background-color: white;
     display: flex;
     top: 0;
     width: 100%;
